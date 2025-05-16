@@ -52,7 +52,7 @@ def run_discord_bot():
      @client.event
      async def on_ready():
           print(f'{client.user} is now running')
-          scheduler.startsch(client.get_channel(1192297103905542164))# put channel you want the auto post to be in. (the string of numbers is the channel ID)
+          scheduler.startsch(client.get_channel(11111111111111111))# put channel you want the auto post to be in. (the string of numbers is the channel ID)
           #print("made it this far")
 
           try:
