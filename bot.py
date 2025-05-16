@@ -45,7 +45,7 @@ async def send_weather_gpt(channel):
         #print("bbbb")
 
 def run_discord_bot():
-     TOKEN = 'ENTER TOKEN HERE'
+     TOKEN = 'ENTER TOKEN HERE!!'
      client = commands.Bot(command_prefix="!", intents = discord.Intents.default() | discord.Intents(messages=True, message_content=True))
      
      
